@@ -1,33 +1,60 @@
-# CSS Projects Demo
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 20px;
+      text-align: center;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 300px;
+      margin: 20px auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .product h2 {
+      color: #333;
+      margin: 15px 0 5px;
+    }
+    .price {
+      color: #3498db;
+      font-size: 22px;
+      margin: 10px 0;
+    }
+    .buy-btn {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .buy-btn:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
 
-This repository contains a collection of simple CSS demo pages created to practice and showcase my CSS skills.  
-Each page focuses on a different styling concept like buttons, text formatting, layouts, and product pages.
+  <h1>Simple Product Page Demo</h1>
 
-## 📄 Live Demo
+  <div class="product">
+    <img src="https://via.placeholder.com/300x200" alt="Product Image">
+    <h2>Stylish T-Shirt</h2>
+    <p class="price">$19.99</p>
+    <a href="#" class="buy-btn">Buy Now</a>
+  </div>
 
-You can view the live project here:  
-[https://actuallyahmedasif.github.io/css-projects/](https://actuallyahmedasif.github.io/css-projects/)
-
-## 📂 Pages Included
-
-- `index.html` — Main project menu page with links to all demos
-- `product-page.html` — A clean, styled product page with image, text, and button
-- (More pages will be added as I progress through CSS)
-
-## 🎯 Purpose
-
-This project is created as part of my CSS learning journey to demonstrate basic webpage styling and layout building skills.  
-It includes examples of:
-
-- Styling text and headings
-- Creating buttons with hover effects
-- Designing simple layouts and product cards
-- Managing margins, padding, colors, and font styles
-
-## 📌 Note
-
-This is a work in progress. New demos will be added as I learn more CSS concepts.
-
----
-
-**Made by [Ahmed Asif Mughal](https://github.com/actuallyahmedasif)**
+</body>
+</html>
